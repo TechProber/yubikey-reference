@@ -99,7 +99,7 @@ gpg --recv-keys <key id>
 gpg --send-keys <key id>
 
 # with a specific keyserver
-gpg --key-server 'hkps://pgp.mit.edu' --send-keys <key id>
+gpg --keyserver 'hkps://pgp.mit.edu' --send-keys <key id>
 ```
 
 Refresh existing public keys
