@@ -73,6 +73,7 @@ gpg --send-keys <key id> --key-server 'hkps://pgp.mit.edu'
 Refresh existing public keys
 
 ```bash
+gpg  --refresh-keys
 gpg  --refresh-keys --keyserver 'hkps://pgp.mit.edu'
 ```
 
