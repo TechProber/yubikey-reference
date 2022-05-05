@@ -67,7 +67,7 @@ gpg --fingerprint <recepient's email>
 gpg --send-keys <key id>
 
 # with a specific keyserver
-gpg --send-keys <key id> --key-server 'hkps://pgp.mit.edu' 
+gpg --send-keys <key id> --keyserver 'hkps://pgp.mit.edu' 
 ```
 
 Refresh existing public keys
